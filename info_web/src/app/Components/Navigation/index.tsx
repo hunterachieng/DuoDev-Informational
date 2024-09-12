@@ -47,7 +47,7 @@ export default function Navigationbar() {
             href="/" 
            onClick={(e) => { e.preventDefault(); handleScroll('home'); }}  
           className={`${
-            activeLink === "/" ? "text-red-600" : "text-white"  
+            activeLink === "/" ? "text-forestgreen" : "text-white"  
            } hover:text-forestgreen`}
          >
            Home
@@ -59,7 +59,7 @@ export default function Navigationbar() {
             href="#mission"
             onClick={(e) => {e.preventDefault(); handleLinkClick("#mission");}} 
             className={`${
-              activeLink === "#mission" ? "text-red-600" : "text-white"
+              activeLink === "#mission" ? "text-forestgreen" : "text-white"
             } hover:text-forestgreen`}
           >
             Mission
@@ -70,14 +70,22 @@ export default function Navigationbar() {
           <Link 
           href="#value"
           onClick={(e) => {e.preventDefault(); handleLinkClick("#value");}}
-          className=""
+          className={` ${activeLink === "#value" ? "text-forestgreen" : "text-white"}`}
           >Value</Link>
         </li>
         <li className="mx-5 text-[24px] hover:text-forestgreen">
-          <Link href="#community">Community</Link>
+          <Link 
+          onClick={(e) => {e.preventDefault(); handleLinkClick("#community");}}
+          className={` ${activeLink === "#community" ? "text-forestgreen" : "text-white"}`}
+          
+          href="#community">Community</Link>
         </li>
         <li className="mx-5 text-[24px] hover:text-forestgreen">
-          <Link href="#contact">Contact</Link>
+          <Link 
+          onClick={(e) => {e.preventDefault(); handleLinkClick("#contact");}}
+          className={` ${activeLink === "#contact" ? "text-forestgreen" : "text-white"}`}
+          
+          href="#contact">Contact</Link>
         </li>
       </ul>
 
