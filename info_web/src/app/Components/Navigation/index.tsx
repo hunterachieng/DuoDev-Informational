@@ -45,7 +45,7 @@ export default function Navigationbar() {
           <li className="mx-5 text-[24px]">
           <Link
             href="/" 
-          onClick={(e) => { e.preventDefault(); handleScroll('home'); }}  
+           onClick={(e) => { e.preventDefault(); handleScroll('home'); handleLinkClick('/') }}  
           className={`${
             activeLink === "/" ? "text-forestgreen" : "text-white"  
           } hover:text-forestgreen`}
@@ -57,7 +57,7 @@ export default function Navigationbar() {
         <li className="mx-5 text-[24px]">
           <Link
             href="#mission"
-            onClick={(e) => {e.preventDefault(); handleScroll("#mission");}} 
+            onClick={(e) => {e.preventDefault(); handleScroll("mission"); handleLinkClick('#mission') }} 
             className={`${
               activeLink === "#mission" ? "text-forestgreen" : "text-white"
             } hover:text-forestgreen`}
@@ -68,21 +68,21 @@ export default function Navigationbar() {
 
         <li className="mx-5 text-[24px] hover:text-forestgreen">
           <Link 
-          href="#value"
-          onClick={(e) => {e.preventDefault(); handleScroll("#value");}}
-          className={` ${activeLink === "#value" ? "text-forestgreen" : "text-white"}`}
+          href="#values"
+          onClick={(e) => {e.preventDefault(); handleScroll("values"); handleLinkClick('#values') }}
+          className={` ${activeLink === "#values" ? "text-forestgreen" : "text-white"}`}
           >Value</Link>
         </li>
         <li className="mx-5 text-[24px] hover:text-forestgreen">
           <Link 
-          onClick={(e) => {e.preventDefault(); handleScroll("#community");}}
+          onClick={(e) => {e.preventDefault(); handleScroll("community");}}
           className={` ${activeLink === "#community" ? "text-forestgreen" : "text-white"}`}
           
           href="#community">Community</Link>
         </li>
         <li className="mx-5 text-[24px] hover:text-forestgreen">
           <Link 
-          onClick={(e) => {e.preventDefault(); handleScroll("#contact");}}
+          onClick={(e) => {e.preventDefault(); handleScroll("contact"); handleLinkClick('#contact') }}
           className={` ${activeLink === "#contact" ? "text-forestgreen" : "text-white"}`}
           
           href="#contact">Contact</Link>
