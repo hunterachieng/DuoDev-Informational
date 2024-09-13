@@ -1,19 +1,13 @@
-import Image from "next/image";
-import Navigationbar from "./Components/Navigation";
 import LandingPage from "./Components/LandingPage";
+import Values from "./Components/Values";
 import Mission from "./Components/Mission";
+export default function Home  (){
+return (
+  <div>
+    <LandingPage/>
+    <Mission/>
+    <Values/>
+  </div>
 
-
-
-export default function Home() {
-  return (
-    <div>
-      
-        <LandingPage/>
-        <Mission/>
-      
-  
-    </div>
-
-  );
+)
 }
