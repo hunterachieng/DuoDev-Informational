@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function LandingPage() {
     return (
-        <div className=" grid  lg:grid-cols-2 mt-9 " id="landing-page">
+        <div className=" grid  lg:grid-cols-2 mt-2 " id="landing-page">
             <div className= "lg:mt-[20%] md:pl-[3%] pl-3 mt-5 ">
                 <h1 className="md:text-5xl text-3xl   lg:mt-[10%] pb-5 text-artisticblue">
                     Discover Sustainable <br />
