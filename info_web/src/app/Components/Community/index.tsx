@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Community() {
     return (
         <div id="community"  >
-            <h1 className=" sm: text-bold mt-8 md:text-5xl text-3xl text-center mt-8  lg:mt-[10%] pb-5 mr-8 text-artisticblue ">Meet Our Community</h1>
+            <h1 className=" sm: text-bold md:text-5xl text-3xl text-center mt-8  lg:mt-[10%] pb-5 mr-8 text-artisticblue ">Meet Our Community</h1>
             <div className="sm:grid lg:flex md:grid m-3 mt-5">
                 <div className="sm:mt-5">
                     <div className="flex items-center justify-center pb-3 mb-3 box-shadow">

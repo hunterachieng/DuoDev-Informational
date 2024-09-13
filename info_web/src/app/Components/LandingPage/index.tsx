@@ -18,10 +18,10 @@ export default function LandingPage() {
             <div className="md:ml-[10%] lg:ml-2">
                 <Image
                     src={"/sustainabletrends.png"}
-                    width={750}
-                    height={750}
+                    width={600}
+                    height={500}
                     alt="Sustainable fashion"
-                    className="mt-[10%]"
+                    className=""
                 ></Image>
             </div>
         </div>

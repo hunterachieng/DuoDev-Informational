@@ -41,16 +41,16 @@ export default function Navigationbar() {
       </button>
 
       {/* Full Menu (visible only on larger screens) */}
-         <ul className="hidden lg:flex text-xl text-white cursor-pointer text-[24px] pl-3">
+        <ul className="hidden lg:flex text-xl text-white cursor-pointer text-[24px] pl-3">
           <li className="mx-5 text-[24px]">
-           <Link
+          <Link
             href="/" 
            onClick={(e) => { e.preventDefault(); handleScroll('home'); handleLinkClick('/') }}  
           className={`${
             activeLink === "/" ? "text-forestgreen" : "text-white"  
-           } hover:text-forestgreen`}
-         >
-           Home
+          } hover:text-forestgreen`}
+        >
+          Home
           </Link>
         </li>
 

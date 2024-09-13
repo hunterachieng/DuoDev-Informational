@@ -7,14 +7,14 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="w-[100%] bg-artisticblue text-slate-200" id="contact">
+        <footer className="w-[100%] bg-artisticblue text-slate-200">
             <div className="mx-[5%]">
                 <h1 className="text-center md:text-xl p-[30px]">©2024 Eco-Threads Hub</h1>
                 <hr className="w-[100%] pb-9"/>
-                <div className="sm:grid text-center pb-5  md:flex justify-between pr-5 lg:flex justify-between">
+                <div className="sm:grid text-center pb-5  md:flex pr-5 lg:flex justify-between">
                     {/* contact us */}
                     <section className="  pb-5">
-                        <ul className="grid justify-center md:text-xl flex  ">
+                        <ul className="grid justify-center md:text-xl  ">
                             <li className="mx-5 text-bold text-3xl mb-3 text-[24px] sm:mt-[0%] mt-[-15%]">Contact Us</li>
                             <li><a href="mailto:ecothreads2024@gmail.com text-[15px]">ecothreads2024@gmail.com</a></li>                            
                         </ul>
