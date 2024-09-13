@@ -13,7 +13,7 @@ export default function Values() {
             </div>
             <div className="mt-[20%]">
                 <h1 className=" md:text-5xl text-3xl lg:mt-[10%]  text-artisticblue">Values</h1>
-                <ul className=" md:mt-4 text-[16px] text-artisticblue pr-3">
+                <ul className=" md:mt-4 md:text-xl text-[16px] text-artisticblue pr-3">
                     <li className="py-3"><b>Sustainability</b>: We are committed to environmental sustainability in all our operations.</li>
                     <li className="py-3"><b>Ethical Sourcing</b>: We ensure all products are sourced ethically and responsibly.</li>
                     <li className="py-3"><b>Community</b>: We foster a community of like-minded individuals who are passionate about sustainable fashion.</li>
