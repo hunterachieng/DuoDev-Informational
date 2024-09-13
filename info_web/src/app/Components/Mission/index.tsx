@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
     return (
-        <div className="grid  lg:grid-cols-2 mt-8 gap-10 place-items-center lg:place-items-stretch jusitfy-between" id="mission">
+        <div className="grid  lg:grid-cols-2 mt-8 gap-10 place-items-center lg:place-items-stretch jusitfy-between" id="#mission">
             <div className="lg:mt-[15%] md:pl-[3%] pl-3 mt-5 ">
                 <h1 className="sm: text-bold md:text-5xl text-3xl text-center   lg:mt-[10%] pb-5 mr-8 text-artisticblue ">Mission</h1>
                 

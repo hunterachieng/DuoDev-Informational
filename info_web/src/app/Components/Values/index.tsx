@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Values() {
     return (
-        <div className=" lg:grid  lg:grid-cols-2 flex flex-col-reverse px-5 ">
+        <div className=" lg:grid  lg:grid-cols-2 flex flex-col-reverse px-5 " id ="#value">
             <div >
                 <Image
                     src={"/picture1.jpeg"}
