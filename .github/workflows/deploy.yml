@@ -6,6 +6,10 @@ on:
       - dev        # Runs install and build on dev
       - staging    # Runs install and build on staging
       - prod       # Runs install, build, and deploy on prod
+  pull_request:
+    branches:
+      - dev      # Runs install and build when a PR is opened targeting dev branch
+      - staging 
 
 jobs:
   build:
