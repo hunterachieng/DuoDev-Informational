@@ -32,12 +32,12 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        working-directory: ./info-web
+        working-directory: /info-web
         run: npm install
 
       # Build the project
       - name: Build Next.js project
-        working-directory: ./info-web
+        working-directory: /info-web
         run: npm run build
 
   deploy:
@@ -61,7 +61,7 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}   # Set in GitHub secrets
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Set in GitHub secrets
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Set in GitHub secrets
-          working-directory: ./info-web                      # Root of Next.js project
+          working-directory: /info-web                      # Root of Next.js project
           scope: ${{ secrets.VERCEL_SCOPE }}           # Optional: team scope
 
       # Optionally, add a success notification
