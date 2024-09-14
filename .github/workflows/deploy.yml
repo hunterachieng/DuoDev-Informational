@@ -8,7 +8,7 @@ on:
       - prod       # Runs install, build, and deploy on prod
   pull_request:
     branches:
-      - dev      # Runs install and build when a PR is opened targeting dev branch
+      - dev      
       - staging 
 
 jobs:
